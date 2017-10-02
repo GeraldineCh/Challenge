@@ -1,0 +1,28 @@
+#first-square {
+ background-color: aqua;
+ height: 150px;
+ width: 150px;
+ padding: 10px;
+ float: left;
+}
+
+#title {
+ background-color: rebeccapurple;
+ color: white;
+ padding: 20px;
+}
+
+#text-title {
+ margin-left: 16%;
+}
+
+#tracks {
+ background-color: yellow;
+ height: 1200px;
+}
+
+#suggest {
+ background-color: slategray;
+ height: 1200px;
+}
+
