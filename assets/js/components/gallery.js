@@ -34,14 +34,14 @@ const reRender = (rowsong, songlist, update) => {
 
 const Gallery = (update) => {
 
-  const contentsong = $('<div class="row"></div>');
+  const contentsong = $('<div class="row container"></div>');
   const divInput = $('<div class="input-field col s8 offset-s1">');
   const iconSearch = $('<label><span class="material-icons prefix">search</span></label>');
   const inputName =  $('<input type="text" placeholder="Search song">');
   const buttonAz = $('<div class="col s2 left-align"><a class="waves-effect waves-light btn">A - Z</a></div>');
   const buttonNum = $('<div class="col s1"><a class="waves-effect waves-light btn">#</a></div>');
-  const rowsong = $('<div class="row col m8"></div>');
-  const colSuggest = $('<div class="suggest col s6 m3 center-align"></div>');
+  const rowsong = $('<div id="songList" class="row col m7"></div>');
+  const colSuggest = $('<div class="suggest col s6 m4 center-align"></div>');
   const sectionMod = $('<section class="overlay"></section>');
   $("#root").after(sectionMod);
 

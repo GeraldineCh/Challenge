@@ -31,9 +31,14 @@ input:focus::-webkit-input-placeholder {
 
 .content-song :hover {background: gray; color: white;}
 
+#songList{
+ height: 200vh;
+ overflow-y: scroll;
+}
+
 .suggest {
  background-color: dimgrey;
- height: 100vh;
+ height: 200vh;
 }
 
 .img-song{
