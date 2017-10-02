@@ -2,7 +2,7 @@
 
 const songItem = (song, update) => {
   const num = convertNum(song.number);
-  const colsong = $('<div class="col s12 m6 center-align"></div>');
+  const colsong = $('<div class="col s6 m12 center-align"></div>');
   const modal = $('<a href="#"></a>');
   const contentsong = $('<div class="content-song"></div>');
   const contentImg = $('<div class="img-song"></div>');
@@ -40,7 +40,8 @@ const Gallery = (update) => {
   const inputName =  $('<input type="text" placeholder="Search song">');
   const buttonAz = $('<div class="col s2 left-align"><a class="waves-effect waves-light btn">A - Z</a></div>');
   const buttonNum = $('<div class="col s1"><a class="waves-effect waves-light btn">#</a></div>');
-  const rowsong = $('<div class="row container"></div>');
+  const rowsong = $('<div class="row col m8"></div>');
+  const colSuggest = $('<div class="suggest col s6 m3 center-align"></div>');
   const sectionMod = $('<section class="overlay"></section>');
   $("#root").after(sectionMod);
 
@@ -50,6 +51,7 @@ const Gallery = (update) => {
   contentsong.append(buttonAz);
   contentsong.append(buttonNum);
   contentsong.append(rowsong);
+  contentsong.append(colSuggest);
 
   state.songs.forEach((song)=>{
     rowsong.append(songItem(song, update));
