@@ -32,19 +32,32 @@ input:focus::-webkit-input-placeholder {
 .content-song :hover {background: gray; color: white;}
 
 #songList{
- height: 200vh;
+ height: 100vh;
  overflow-y: scroll;
+}
+
+#first-square {
+ background-color: aqua;
+ height: 150px;
+ width: 150px;
+ padding: 10px;
+ float: left;
+}
+
+#title {
+ background-color: rebeccapurple;
+ color: white;
+ padding: 20px;
 }
 
 .suggest {
  background-color: dimgrey;
- height: 200vh;
+ height: 100vh;
 }
 
 .img-song{
   float: left;
   display: flex;
-  padding: 20px;
 }
 
 .img-icon {

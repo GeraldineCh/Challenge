@@ -7,7 +7,7 @@ const songItem = (song, update) => {
   const contentsong = $('<div class="content-song"></div>');
   const contentImg = $('<div class="img-song"></div>');
   const imgsong = $('<img src="' + song.image + '"/>');
-  const contentIcon = $('<div class="img-icon">' + '#' + num + '    ' +song.name + '<br>'+song.collection +'</p></div>');
+  const contentIcon = $('<div class="img-icon">' + '#' + num + '    <strong>' +song.name + '</strong><br>'+song.collection +'</p></div>');
 
 
   modal.append(contentsong);
