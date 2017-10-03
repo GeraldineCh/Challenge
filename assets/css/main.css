@@ -6,6 +6,10 @@
 
 body{ font-family: flexo, sans-serif;}
 
+strong {
+ font-weight: bolder !important;
+}
+
 h1{
   background-color: #e84848;
   color: white;
